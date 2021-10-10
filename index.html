@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Adriane Bucod - Digital Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="Stylesheet" type="text/css" href="index.css">
+    <link rel="Stylesheet" type="text/css" href="lightbox.min.css">
+    
+    <script type="text/javascript" src="lightbox-plus-jquery.min.js"></script>
+
+
+
+    <style>
+        #videoBG {
+            position: fixed;
+            z-index: -1;
+        }
+
+        @media (min-aspect-ratio: 16/9) {
+            #videoBG {
+                width: 100%;
+                height: auto;
+            }
+
+        }
+
+        @media (max-aspect-ratio: 16/9) {
+            #videoBG {
+                width: auto;
+                height: 100%;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="bg-black">
+    <!-- VIDEOBG-->
+    <video id="videoBG" poster="poster.JPG" autoplay muted loop>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <!-- VIDEOBG-->
+
+    <!-- navbar start-->
+    <nav class="navbar navbar-light fixed-top shadow-sm">
+        <div class="container-lg">
+            <a class="navbar-brand text-warning fw-bold fs-4" href="#">ADI</a>
+            <div class="dropdown">
+                <button class="btn btn-secondary btn-warning px-2" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#home">Home</a></li>
+                    <li><a class="dropdown-item" href="#portfolio">About</a></li>
+                    <li><a class="dropdown-item" href="#services">Services</a></li>
+                    <li><a class="dropdown-item" href="#contact">Contacts</a></li>
+                    <li><a class="dropdown-item" href="Form/Vaccination.html">Form</a></li>
+                    <li><a class="dropdown-item" href="Responsive/responsive.html">Responsive</a></li>
+                    <li><a class="dropdown-item" href="Restaurant/Myrestaurant.html">Restaurant</a></li>
+                    <li><a class="dropdown-item" href="Reviewcmascript/myreviewonecmascript.html">Ecmascript</a></li>
+                    <li><a class="dropdown-item" href="Tribute/Tribute.html">Tribute</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end-->
+    <!-- Home section start-->
+    <section class="home py-5 " id="home">
+        <div class="container-lg">
+            <div class="row min-vh-100 align-items-center align-content-center">
+                <div class="col-md-6 mt-5 mt-md-0">
+                    <div class="home-img text-center">
+                        <img src="1.jpg"
+                            class="rounded-circle mw-100" alt="profile">
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+                    <div class="home-text">
+                        <p class="mb-1 text-warning">Hello I'm </p>
+                        <h1 class="text-warning text-uppercase fs-1 fw-bold">Web Designer</h1>
+                        <h2 class="fs-2 text-white">Adriane Bucod</h2>
+                        <h5 class="fs-6 text-warning text-uppercase">- born on september 15, 1999 <br>
+                            - lives in davao city<br>
+                            - Bachelor of science in
+                            information technology
+                            <br>
+                            - University of immaculate conceptcion
+                        </h5>
+                        <a href="WebApplication/WebApp.html" class="btn btn-warning px-3 mt-3">WEB APPLICATION </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home section end-->
+    <!-- about section start-->
+    <div class="section-title text-center">
+        <h2 class="fw-bold mb-5 text-warning">About me</h2>
+    </div>
+    <section class="Gallery py-5" id="portfolio">
+        <div class="Content">
+            <p class="text-muted">Hey, this is my Gallery, so I have to say something about myself. Sometimes it is hard to introduce
+                yourself because you know yourself so well that you do not know where to start with. Let me give a try
+                to see what kind of image you have about me through my self-description. I hope that my impression about
+                myself and your impression about me are not so different. Here it goes.</p>
+            <div class="gallery">
+                <a href="1.jpg" data-lightbox="mygallery"><img src="1.jpg"></a>
+                <a href="2.jpg" data-lightbox="mygallery"><img src="2.jpg"></a>
+                <a href="3.jpg" data-lightbox="mygallery"><img src="3.jpg"></a>
+                <a href="4.jpg" data-lightbox="mygallery"><img src="4.jpg"></a>
+                <a href="5.jpg" data-lightbox="mygallery"><img src="5.jpg"></a>
+                <a href="6.jpg" data-lightbox="mygallery"><img src="6.jpg"></a>
+            </div>
+            <p class="text-muted">I am a person who is positive about every aspect of life. There are many things I like to do, to see, and
+                to experience. I like to read, I like to write; I like to think, I like to dream; I like to talk, I like
+                to listen. I like to see the sunrise in the morning, I like to see the moonlight at night; I like to
+                feel the music flowing on my face, I like to smell the wind coming from the ocean. I like to look at the
+                clouds in the sky with a blank mind, I like to do thought experiment when I cannot sleep in the middle
+                of the night. I like flowers in spring, rain in summer, leaves in autumn, and snow in winter. I like to
+                sleep early, I like to get up late; I like to be alone, I like to be surrounded by people. I like
+                country’s peace, I like metropolis’ noise; I like the beautiful west lake in Hangzhou, I like the flat
+                cornfield in Champaign. I like delicious food and comfortable shoes; I like good books and romantic
+                movies. I like the land and the nature, I like people. And, I like to laugh.</p>
+            <p class="text-muted">I have always wanted to be an Front End - Developer, Because I want to design a web site on the internet
+                but so far I don’t have much skill about Designing Web sites but I am learning it through the Process
+                even though its very slow. And While my dream is still alive I will not give up to achieve my dreams.
+            </p >
+            <p class="text-muted">This is a brief introduction of myself. If you are interested in knowing more, Lets meet in person. Thank
+                You</p>
+        </div>
+    </section>
+    <!-- about section end-->
+    <!-- service section Start-->
+    <section class="services py-5" id="services">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class=" fw-bold mb-5 text-warning">What I do</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class=" col-md-6 col-lg-4 mb-4">
+                    <div class="WID service-item shadow-sm p-4 rounded">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Web Development</h3> 
+                    </div>
+                </div>
+                <div class=" col-md-6 col-lg-4 mb-4">
+                    <div class="WID service-item shadow-sm p-4 rounded ">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">Creative Design</h3>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="WID service-item shadow-sm p-4 rounded ">
+                        <div class="icon my-3 text-danger fs-2">
+                            <i class="fas fa-camera"></i>
+                        </div>
+                        <h3 class="fs-5 py-2">PhotoShop</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section end-->
+    <!-- portfolio section Star-->
+    <section class="about  py-5" id="about">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3 text-warning">The standard Lorem Ipsum passage, used since the 1500s</h3>
+                        <p class="text-muted">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum."</p>
+                    </div>
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold text-warning">100</h4>
+                                <p class="text-muted">Project Complete</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold text-warning">100</h4>
+                                <p class="text-muted">Happy Clients</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="fact-item">
+                                <h4 class="fs-1 fw-bold text-warning">100</h4>
+                                <p class="text-muted">Positive Reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 d-flex align-items-center">
+                            <a href="#" class="btn px-3 btn-warning me-5">Download CV</a>
+                            <div class="social-links">
+                                <a href="https://www.facebook.com/AdrianeBucod/" class="text-warning me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https://www.instagram.com/adrianebucod/" class="text-warning me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="https://twitter.com/Adreyaann" class="text-warning me-2"><i class="fab fa-twitter"></i></a>
+                                <a href="https://www.youtube.com/channel/UChd0bQ67g-DfjK_n7iSPnLg" class="text-warning me-2"><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-item mb-4 mt-md-0">
+                        <h3 class="fs-6 text-warning">HTML</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-warning">CSS</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar " role="progressbar" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-warning">JAVASCRIPT</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item mb-4">
+                        <h3 class="fs-6 text-warning">BOOTSTRAP</h3>
+                        <div class="progress" style="height: 1px;">
+                            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <div class="progress" style="height: 20px;">
+                            <div class="progress-bar" role="progressbar" style="width: 10%;" aria-valuenow="10"
+                                aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    
+    <!-- portfolio section end-->
+    <!-- Freelancer section Start-->
+    <section class="freelancer-available py-5">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <p class="text-light fs-5">Do you have any Project?</p>
+                    <h2 class="fs-1 text-white mb-4">I'm Available For FreeLancer Projects</h2>
+                    <a href="#contact" class="btn btn-outline-light">Hire Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Freelancer section end-->
+    <!-- Contact section Start-->
+    <section class="contact py-5" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center">
+                        <h2 class="fw-bold mb-5 text-light"> Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon text-warning">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-1">
+                            <h3 class="fs-5 text-white">Email</h3>
+                            <p class=" text-white">abucod_180000002174@uic.edu.ph</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon text-warning">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 text-white">Phone</h3>
+                            <p class=" text-white">09381382167</p>
+                        </div>
+                    </div>
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon text-warning">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5 text-white">Address</h3>
+                            <p class=" text-white">Rosalina Village 3 Davao City</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form ms-5  ">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Your Name"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Your Email"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-lg-12 mb-4">
+                                    <input type="text" placeholder="Subject"
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm">
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <textarea placeholder="Your Message" rows="5" 
+                                        class="form-control form-control-lg fs-6 border-0 shadow-sm bg-light"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-12 mb-4">
+                                    <button type="submit" class="btn btn-warning">Send Message</button>
+                                </div>
+
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact section end-->
+    <section class="p-5">
+        <div class="container">
+          <div class="row g-4">
+            <div class="col-md">
+              <div id="map"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center|">&copy; 2021 Adriane Bucod</p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js"></script>
+
+    <script>
+      mapboxgl.accessToken =
+        'pk.eyJ1IjoiYnRyYXZlcnN5IiwiYSI6ImNrbmh0dXF1NzBtbnMyb3MzcTBpaG10eXcifQ.h5ZyYCglnMdOLAGGiL1Auw'
+      var map = new mapboxgl.Map({
+        container: 'map',
+        style: 'mapbox://styles/mapbox/streets-v11',
+        center: [125.5074232, 7.04084],
+        zoom: 11,
+      })
+    </script>
+</body>
+
+</html>
