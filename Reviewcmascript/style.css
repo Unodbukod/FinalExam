@@ -1,0 +1,71 @@
+h1{
+    color:aqua;
+    text-align: center;
+    font: size 50px;
+}
+h2{
+    color:aqua;
+    text-align: center;
+    font-size: larger;
+}
+body{
+background-color: black;
+background-size: cover;
+background-position: center;
+}
+img{
+    display: block;
+    margin: 0 auto 0 auto;
+}
+header{
+    color:aqua;
+    text-align: center;
+    font-size: larger;
+    width: 100%;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+header .Navigation a{
+    border-style: inherit;
+    color: aliceblue;
+    font-size: 60px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.6s;
+    transition-property: background;
+}
+header .Navigation a:not(:last-child){
+    margin-right: 30px;
+}
+header .Navigation a:hover{
+    background: black;
+}
+.Material{
+    font-size: 15px;
+    color: chartreuse;
+    text-align: center;
+
+}
+iframe{
+    align-self: center;
+}
+.BACK{
+    text-align: center;
+    border-style: inherit;
+    color: black;
+    font-size: 60px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.6s;
+    transition-property: black;
+}
+.BACK a:hover{
+    background: aqua;
+    
+}
